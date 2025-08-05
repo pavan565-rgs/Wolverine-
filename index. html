@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wolverine Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Wolverine Search</h1>
+    <form class="search-form" onsubmit="return handleSearch(event)">
+      <input type="text" id="searchInput" placeholder="Search like a beast..." required />
+      <button type="submit">SNIKT!</button>
+    </form>
+    <div id="results" class="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
